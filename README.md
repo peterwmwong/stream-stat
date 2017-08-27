@@ -16,7 +16,11 @@ gunzip -c /path/to/file.gz | npx github:peterwmwong/stream-stat > /path/to/unzip
 
 ## Installation
 
-Install to your project
+As of NPM 5.2.0, no install is necessary!  Just use `npx`...
+
+    cat /dev/random | npx github:peterwmwong/stream-stat > /dev/null
+
+If you still want to use install it...
 
     $ npm install stream-stat
 
