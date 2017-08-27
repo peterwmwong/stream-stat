@@ -9,16 +9,16 @@ second and total seconds.
 ## Usage
 
 ```sh
-cat /dev/random | npx github:peterwmwong/stream-stat > /dev/null
+cat /dev/random | npx stream-stat > /dev/null
 
-gunzip -c /path/to/file.gz | npx github:peterwmwong/stream-stat > /path/to/unzipped
+gunzip -c /path/to/file.gz | npx stream-stat > /path/to/unzipped
 ```
 
 ## Installation
 
 As of NPM 5.2.0, no install is necessary!  Just use `npx`...
 
-    cat /dev/random | npx github:peterwmwong/stream-stat > /dev/null
+    cat /dev/random | npx stream-stat > /dev/null
 
 If you still want to use install it...
 
